@@ -1,0 +1,50 @@
+.footer-wrapper {
+  background-color: #f0f0f0;
+  padding-top: 160px;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+.footer-wrapper .footer-heading {
+  color: rgb(0, 0, 0);
+  font-family: "IntegralCF", sans-serif;
+  font-size: 33.455px;
+  font-weight: 800;
+  line-height: normal;
+}
+.footer-wrapper .footer-para {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Satoshi";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  max-width: 250px;
+}
+.footer-wrapper .footer-main-li {
+  color: rgb(0, 0, 0);
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.footer-wrapper .footer-main-li {
+  padding-top: 35px;
+}
+.footer-wrapper .footer-li {
+  padding-top: 20px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-wrapper {
+    background-color: #f0f0f0;
+    padding-top: 160px;
+    margin-top: 150px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .footer-wrapper {
+    margin-top: 255px;
+    padding-bottom: 30px;
+  }
+}

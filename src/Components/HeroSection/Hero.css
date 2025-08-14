@@ -1,0 +1,117 @@
+.hero-wrapper {
+  background-color: #f2f0f1;
+}
+.hero-wrapper .hero-shop-now-btn {
+  background-color: black;
+  padding: 16px 54px;
+  color: rgb(255, 255, 255);
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 62px;
+  background: rgb(0, 0, 0);
+}
+.hero-wrapper .hero-heading {
+  color: rgb(0, 0, 0);
+  font-family: "IntegralCF", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 64px;
+  position: relative;
+  max-width: 577px;
+}
+.hero-wrapper .hero-para {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Satoshi";
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 22px;
+  max-width: 545px;
+  margin-top: 20px;
+}
+.hero-wrapper .hero-count-digit {
+  color: rgb(0, 0, 0);
+  font-family: "Satoshi";
+  font-size: 40px;
+  font-weight: 700;
+}
+.hero-wrapper .hero-count-desc {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.hero-wrapper .hero-count-border-div {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 16px;
+}
+.hero-wrapper .hero-main-div {
+  padding: 90px 0px;
+  gap: 30px;
+}
+.hero-wrapper .hero-count-first-main-div {
+  padding-right: 16px;
+}
+
+.start-1st-img {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: 95%;
+  bottom: 59%;
+}
+
+.hero-para-img-outer {
+  position: absolute;
+  /* left: -70px;  */
+  right: 103%;
+  top: 49%;
+  transform: translateY(-50%);
+  width: 85px;
+  height: 85px;
+}
+.hero-para-wrapper {
+  position: relative;
+}
+@media(max-width:767px){
+  .hero-wrapper .hero-shop-now-btn {
+  background-color: black;
+  padding: 16px 54px;
+  color: rgb(255, 255, 255);
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 62px;
+  background: rgb(0, 0, 0);
+  width: 100%;
+}
+.hero-wrapper .hero-main-div {
+  padding: 40px 0px;
+  gap: 30px;
+}
+.hero-wrapper .hero-para{
+  text-align: left;
+  max-width: 300px;
+}
+.hero-wrapper .hero-count-digit{
+  font-size: 24px;
+
+}
+.hero-wrapper .hero-count-main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 17px;
+}
+.hero-wrapper .hero-count-desc{
+  font-size: 12px;
+
+}
+.hero-count-last-div{
+  border-left: none !important;
+}
+}
